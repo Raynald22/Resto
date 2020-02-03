@@ -10,7 +10,7 @@ class Pesanan extends CI_Controller
         $this->load->view('templates/pelayan_header', $data);
         $this->load->view('templates/pelayan_siderbar', $data);
         $this->load->view('pelayan/pesanan', $data);
-        $this->load->view('templates/footer', $data);
+        $this->load->view('templates/footer');
     }
     public function tambah_aksi()
     {
